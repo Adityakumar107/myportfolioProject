@@ -14,7 +14,7 @@ var tl = gsap.timeline()
       stagger:.5,
       opacity:0,
    })
-     tl.from(".links svg", {
+     tl.from(".links i", {
       y: 50,
       duration:.5,
       opacity:0,

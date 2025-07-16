@@ -145,22 +145,26 @@ h1::selection{
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: .85rem;
 }
-.links svg{
+
+.links i{
     cursor: pointer;
-    height: 40px;   
-    fill: #dcdadadb;
+    font-size: 1.36rem;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin-top: 1.56rem;
+    border-radius: 50%;
+    border: .2rem solid #dadada88;
+    padding: .7rem;
+    color: #dadada88;
 }
-.links .svg1{
-    margin-right: .5rem;
-    width: 145px;
+.links i:hover{
+    opacity: 1;
+    color: #000;
+    border: .2rem solid #000;
 }
-.links svg:hover{
-    fill: #000;
-}
+
 #full-intier .full-img1{
 position: absolute;
 height: 150px;
